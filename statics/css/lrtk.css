@@ -1,0 +1,42 @@
+html {overflow-x:hidden;}
+
+.custom_service p img {display: inline;  vertical-align:middle;    margin: 0;
+    float: none;
+    min-width: 0;    max-width: 100%;}
+.custom_service p a{    font-size: 12px; color: #999;    word-break: break-all;}
+.scrollsidebar{position:absolute; z-index:99999; top:100px; right:0    }
+.side_content{width:154px; height:auto; overflow:hidden; float:right; }
+.side_content .side_list {width:154px;overflow:hidden;}
+.show_btn{ width:0; height:192px; overflow:hidden; margin-top:50px; float:left; cursor:pointer;}
+.show_btn span { display:none;}
+.close_btn{width:24px;height:24px;cursor:pointer;}
+.side_title{ background:url(../images/title_pic.png) no-repeat;    border-radius: 5px 5px 0 0;-moz-border-radius: 5px 5px 0 0;-webkit-border-radius: 5px 5px 0 0;border: 1px solid #dadada; border-bottom:none;}
+.side_bottom,.close_btn,.show_btn {background:url(../images/show_btn.png) no-repeat;}
+.side_title {height:85px;}
+.side_bottom { height:8px;}
+.side_center {font-family:Verdana, Geneva, sans-serif; font-size:12px;}
+.close_btn { float:right; display:block; width:21px; height:16px; background:url(../images/sidebar_bg.png) no-repeat; }
+.close_btn span { display:none;}
+.side_center .custom_service p {text-align: left;padding: 6px 10px;margin: 0;vertical-align: middle;border-bottom: 1px solid #dadada;}
+.other  { text-align:center;border-bottom:1px solid #ddd;}
+.other p { padding:5px 0; _height:16px; margin:0;color: #666666;}
+.msgserver { text-align:center;}
+.msgserver a { background:url(../images/hidden.png) no-repeat;}
+
+/* blue skin as the default skin */
+.side_title, .side_blue .side_title {}
+.side_center, .side_blue .side_center {background:url(../images/blue_line.png) repeat-y center;}
+.side_bottom, .side_blue .side_bottom {background-position:-195px -50px;}
+.close_btn, .side_blue .close_btn {background-position:-44px 0;}
+.close_btn:hover, .side_blue .close_btn:hover {}
+.show_btn , .side_blue .show_btn {}
+.msgserver a, .side_blue .msgserver a {color:#06C;}
+
+/* green skin  */
+.side_green .side_title {}
+.side_green .side_center {background:#fff;border-radius: 0 0 5px 5px;-moz-border-radius: 0 0 5px 5px;-webkit-border-radius: 0 0 5px 5px;border: 1px solid #dadada; border-top:none}
+.side_green .side_bottom {background-position:-349px -50px;}
+.side_green .close_btn {}
+.side_green .close_btn:hover {}
+.side_green .show_btn {}
+.side_green .msgserver a {color:#76a20c;    margin-top: 3px;}
